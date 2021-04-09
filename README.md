@@ -60,7 +60,7 @@ On iOS 10, you can use `barColor` and `controlTintColor` as well
 To install the plugin with the Cordova CLI from npm:
 
 ```
-$ cordova plugin add cordova-plugin-safariviewcontroller
+$ cordova plugin add https://github.com/Rock7MediaLLC/cordova-plugin-safariviewcontroller.git
 ```
 
 *Note*: the plugin requires Cordova Android 7.0.0 or later.
@@ -180,7 +180,7 @@ Do this:
 
 
 ## 7. Changelog
-* 2.0.0 Support AndroidX
+* 2.0.0 Support AndroidX , update iOS default dismiss Button Style to 'Close'
 * 1.6.0 A few changes for Android. See [these closed issues](https://github.com/EddyVerbruggen/cordova-plugin-safariviewcontroller/milestone/7?closed=1).
 * 1.5.3 Hidden tabs don't get removed on `hide()` (iOS). Thanks #104!
 * 1.4.3 Options weren't correctly passed to native code. Thanks #19!
