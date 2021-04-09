@@ -33,6 +33,10 @@
 
   vc = [[SFSafariViewController alloc] initWithURL:url entersReaderIfAvailable:readerMode];
   vc.delegate = self;
+  
+  // Changed Dismiss Button Style to 'close'
+  // 0 - Done, 1 - Close, 2 - Cancel
+  vc.dismissButtonStyle = 1;
 
   bool hidden = [options[@"hidden"] isEqualToNumber:[NSNumber numberWithBool:YES]];
   if (hidden) {
